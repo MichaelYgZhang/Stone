@@ -7,14 +7,11 @@ LABEL maintainer="g.zhangyg@gmail.com"
 # Add a volume pointing to /tmp
 VOLUME /tmp
 
-# Make port 8080 available to the world outside this container
-EXPOSE 8080
-
 # The application's jar file
-ARG JAR_FILE=target/stone-config-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=target/config-0.0.1-SNAPSHOT.jar
 
 # Add the application's jar to the container
-ADD ${JAR_FILE} stone-config.jar
+ADD ${JAR_FILE} config.jar
 
 # Run the jar file
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/stone-config.jar"]
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/config.jar"]
