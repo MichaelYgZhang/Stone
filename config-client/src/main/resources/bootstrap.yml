@@ -1,0 +1,6 @@
+# SystemConfig
+spring:
+  profiles:
+    active: test   # dev, test, prod 控制是选择那个配置文件
+
+

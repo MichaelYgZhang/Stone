@@ -5,7 +5,7 @@
 |TODO | No | Tech | Desc |
 |:---|:---|:-----|:------|
 |✅|1| Prometheus|03-24完成, 在docker环境下grafana+prometheus+springboot的集成; 中间遇到很多问题, 总结一下:先去官网看资料, 环境跑通只是第一步, 需要清楚明白整个底层原理.看官网资料源码.|
-|✅|2| config-Apollo| 0528进行中|
+|✅|2| config| 0528进行中; 基于spring-cloud-config的一套流程完成.TODO Apollo|
 |❌|3| etcd| ..|
 |❌|4| OAuth2| ..|
 |❌|5| BigData|...|

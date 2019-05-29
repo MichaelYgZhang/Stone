@@ -1,0 +1,25 @@
+# SystemConfig
+spring:
+  application:
+    name: config-client-prod
+  cloud:
+    config:
+      profile: default # optional
+      label: master # optional
+      uri: http://localhost:8888/ #获取spring-cloud-config-server url
+
+server:
+  port: 8087
+
+
+# UserConfig
+mybean:
+  name: mybean-name-prod
+
+config:
+  environment: environment-prod
+  name: name-prod-prod123
+  servers: prod.abc.123,prod.def.456
+
+
+

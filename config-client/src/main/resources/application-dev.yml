@@ -1,0 +1,25 @@
+# SystemConfig
+spring:
+  application:
+    name: config-client-dev
+  cloud:
+    config:
+      profile: default # optional
+      label: master # optional
+      uri: http://localhost:8888/ #获取spring-cloud-config-server url
+
+server:
+  port: 8089
+
+
+# UserConfig
+mybean:
+  name: mybean-name-dev
+
+config:
+  environment: environment-dev
+  name: name-dev-dev123
+  servers: dev.abc.123,dev.def.456
+
+
+

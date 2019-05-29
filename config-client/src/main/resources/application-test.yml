@@ -1,0 +1,25 @@
+# SystemConfig
+spring:
+  application:
+    name: config-client-test
+  cloud:
+    config:
+      profile: default # optional
+      label: master # optional
+      uri: http://localhost:8888/ #获取spring-cloud-config-server url
+
+server:
+  port: 8088
+
+
+# UserConfig
+mybean:
+  name: mybean-name-test
+
+config:
+  environment: environment-test
+  name: name-test-test123
+  servers: test.abc.123,test.def.456
+
+
+
