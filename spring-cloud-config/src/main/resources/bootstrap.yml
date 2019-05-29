@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+           uri: https://github.com/MichaelYgZhang/Stone
+           searchPaths: config-repo
+#          search-paths: repo
+#          username:
+#          password:
+
+# 浏览器中输入：http://localhost:8888/master/development

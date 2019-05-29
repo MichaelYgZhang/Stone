@@ -1,5 +1,5 @@
 info:
-  profile: default
+  profile: master
   from: michael
 
 test: abc
