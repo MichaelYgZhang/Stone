@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/config")
-@RefreshScope
+@RefreshScope   // 想要更新，需要先调用 curl -X POST http://localhost:8080/refresh
 public class ConfigController {
 
     @Autowired
@@ -33,7 +33,7 @@ public class ConfigController {
         System.out.println("name: " + config.getName());
         System.out.println("servers: " + config.getServers());
 
-        return "hello, config." + myBean.getName() + " and" + myBean.getProfile() +
+        return "hello, config." + myBean.getName() +
                 ",From github config repo info.profile:" + profile + ",info.from:" + infoFrom;
     }
 }
