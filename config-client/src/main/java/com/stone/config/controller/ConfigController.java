@@ -33,6 +33,7 @@ public class ConfigController {
         System.out.println("name: " + config.getName());
         System.out.println("servers: " + config.getServers());
 
-        return "hello, config." + myBean.getName() +",From github config repo info.profile:" + profile + ",info.from:" + infoFrom;
+        return "hello, config." + myBean.getName() + " and" + myBean.getProfile() +
+                ",From github config repo info.profile:" + profile + ",info.from:" + infoFrom;
     }
 }

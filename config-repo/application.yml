@@ -1,5 +1,5 @@
 info:
-  profile: master-profile
-  from: master-master
+  profile: masterProfile
+  from: masterMicheal
 
 test: abc
