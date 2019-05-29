@@ -11,4 +11,4 @@ spring:
 #          username:
 #          password:
 
-# 浏览器中输入：http://localhost:8888/master/development
+# 浏览器中输入：http://localhost:8888/master/development /master/dev /master/test...等等
