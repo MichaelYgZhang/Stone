@@ -1,14 +1,5 @@
-spring:
-  application:
-    name: spring-cloud-config-server
-  cloud:
-    config:
-      server:
-        git:
-          uri: http://github.com/MichaelYgZhang/Stone/config-repo/
-#          search-paths: repo
-#          username:
-#          password:
+info:
+  profile: default
+  from: michael
 
-server:
-  port: 1201
+test: abc
