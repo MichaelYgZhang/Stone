@@ -1,5 +1,5 @@
 # Stone
-快速启动项目的基石,本项目作为一个微服务的练习项目
+快速启动项目的基石,本项目作为一个微服务的练习项目,全部基于Docker容器的练习
 
 ##### TODO PoC(Proof of Concept)
 |TODO | No | Tech | Desc |
