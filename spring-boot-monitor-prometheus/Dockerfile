@@ -11,10 +11,10 @@ VOLUME /tmp
 EXPOSE 8080
 
 # The application's jar file
-ARG JAR_FILE=target/monitor-prometheus-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=target/spring-boot-monitor-prometheus-0.0.1-SNAPSHOT.jar
 
 # Add the application's jar to the container
-ADD ${JAR_FILE} monitor-prometheus.jar
+ADD ${JAR_FILE} spring-boot-monitor-prometheus.jar
 
 # Run the jar file
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/monitor-prometheus.jar"]
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/spring-boot-monitor-prometheus.jar"]

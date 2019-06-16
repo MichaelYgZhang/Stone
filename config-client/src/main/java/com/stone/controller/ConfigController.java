@@ -1,4 +1,4 @@
-package com.stone.config.controller;
+package com.stone.controller;
 
 import com.stone.config.config.Config;
 import com.stone.config.beans.MyBean;

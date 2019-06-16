@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.stone</groupId>
-	<artifactId>monitor-prometheus</artifactId>
+	<artifactId>spring-boot-monitor-prometheus</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>monitor-prometheus</name>
-	<description>monitor-prometheus</description>
+	<name>spring-boot-monitor-prometheus</name>
+	<description>spring-boot-monitor-prometheus</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
