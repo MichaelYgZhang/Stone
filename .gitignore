@@ -4,6 +4,9 @@ HELP.md
 .idea/*
 */.mvn/*
 */mvnw*
+*/*/.*
+*/*/mvnw*
+*/*/.mvn/*
 
 ### STS ###
 .apt_generated
