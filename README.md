@@ -8,6 +8,8 @@
 |✅|2| config| 0528进行中; 基于spring-cloud-config的一套流程完成.TODO Apollo|
 |❌|3| etcd| ..|
 |❌|4| OAuth2| ..|
+|❌||MQ-kafka|...|
+|❌||事务-https://github.com/seata/seata|...|
 |❌|5| BigData|...|
 |❌|6| Project.Service.|...|
 |❌|7| integrated|...|
