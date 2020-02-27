@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.stone.dao.UserInfoDaoMapper">
+
+    <resultMap id="userMap" type="com.stone.bean.UserInfo">
+		<id property="id" column="id"/>
+		<result property="name" column="name"/>
+		<result property="cardNo" column="card_no"/>
+		<result property="flag" column="flag"/>
+    </resultMap>
+
+    <select id="findAll" resultMap="userMap">
+    	SELECT * FROM user_info where flag = 0
+    </select>
+
+    <update id="deleteById" parameterType="java.lang.Long">
+        update user_info set flag = 1 where id = #{id} and flag = 0
+    </update>
+</mapper>
