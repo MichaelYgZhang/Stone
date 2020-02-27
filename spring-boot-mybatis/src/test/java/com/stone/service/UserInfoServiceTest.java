@@ -1,13 +1,13 @@
 package com.stone.service;
 
-import com.stone.SpringbootexampleApplicationTests;
+import com.stone.SpringBootStoneApplicationTest;
 import com.stone.bean.UserInfo;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-public class UserInfoServiceTest extends SpringbootexampleApplicationTests {
+public class UserInfoServiceTest extends SpringBootStoneApplicationTest {
 
 	@Autowired
 	private UserInfoService userInfoService;
