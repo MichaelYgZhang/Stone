@@ -24,6 +24,7 @@
 
 #### TODO List
 - [x] prometheus + springboot
+- [ ] AOP日志打印Controller层和Service层
 - [ ] 日期工具类
 - [ ] Excel导入/导出
 - [ ] Redis集成
